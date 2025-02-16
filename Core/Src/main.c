@@ -99,7 +99,7 @@ int main(void)
   while (1)
   {
 
-	//submit
+	//submit1
 	  if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_15)== GPIO_PIN_SET && HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_7)== GPIO_PIN_RESET){
 		  HAL_GPIO_WritePin(GPIOE, GPIO_PIN_9,0);
 		  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_2,1);
